@@ -1,0 +1,179 @@
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.muname img {
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 55px;
+    opacity: 0.6;
+}
+
+.muname img:hover {
+    opacity: 1;
+}
+
+.sachin img {
+    margin-top: 130px;
+    width: 400px;
+    height: 470px;
+}
+
+@media screen and (max-width:619px) {
+    .sachin img {
+        width: 338px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .accordion {
+        width: 338px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .muname img {
+        width: 338px;
+    }
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.brand {
+    background-color: #008000;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    height: 15px;
+}
+
+.rating .fa {
+    color: #008000;
+}
+
+.price {
+    color: #fe980f;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10;
+}
+
+input {
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: #fe980f;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.myinp {
+    width: 450px;
+    height: 40px;
+    text-align: left;
+}
+
+@media screen and (max-width:500px) {
+    .myinp {
+        width: 310px;
+        text-align: left;
+    }
+}
+
+.box {
+    height: 640px;
+    width: auto;
+    box-shadow: 0 0 20px -9px;
+    position: relative;
+    /* box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa; */
+}
+
+@media screen and (max-width:450px) {
+    .box {
+        width: 337px;
+        height: 690px;
+    }
+    .myinp {
+        width: 337px;
+    }
+    h4 {
+        width: 337px;
+    }
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+button i {
+    font-size: 25px;
+}
+
+.world {
+    position: absolute;
+    top: 26px;
+    right: 10px;
+}
+
+.world1 {
+    position: absolute;
+    top: 113px;
+    right: 10px;
+}
+
+.world2 {
+    position: absolute;
+    top: 185px;
+    right: 10px;
+}
+
+.world3 {
+    position: absolute;
+    top: 250px;
+    right: 10px;
+}
+
+.icons i {
+    position: absolute;
+    margin-top: 48px;
+    padding-left: 380px;
+    font-size: 40px;
+}
+
+.hjsd {
+    position: relative;
+}
+
+@media screen and (max-width:500px) {
+    .icons i {
+        position: absolute;
+        margin-top: 98px;
+        padding-left: 290px;
+        font-size: 30px;
+    }
+}
